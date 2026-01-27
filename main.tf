@@ -32,7 +32,7 @@ variable "aws_region" {
 variable "demo_pr_marker" {
   type        = string
   description = "PR-plan demo marker"
-  default     = "v6"
+  default     = "v1"
 }
 
 ########################
