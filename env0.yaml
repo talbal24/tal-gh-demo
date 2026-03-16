@@ -1,0 +1,8 @@
+version: 2
+
+deploy:
+  steps:
+    terraformApply:
+      after:
+        - name: Hello World
+          run: echo "Hello World! 👋"
